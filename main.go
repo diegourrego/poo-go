@@ -1,7 +1,10 @@
 package main
 
-import "go_poo/abtraction_methods"
+import (
+	"go_poo/types"
+)
 
 func main() {
-	abtraction_methods.GoAbstraction()
+	//abtraction_methods.GoAbstraction()
+	types.RunTypes()
 }
